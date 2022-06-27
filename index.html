@@ -16,6 +16,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <!-- <link rel="stylesheet" href="./css/main.min.css" /> -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
@@ -30,7 +31,9 @@
           </a>
           <ul class="nav-list list">
             <li class="nav-list__item">
-              <a href="./index.html" class="nav-list__link link current">Студия</a>
+              <a href="./index.html" class="nav-list__link link nav-list__link--current current"
+                >Студия</a
+              >
             </li>
             <li class="nav-list__item">
               <a href="./portfolio.html" class="nav-list__link link">Портфолио</a>
@@ -462,64 +465,64 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="close" data-modal-close>
-          <svg class="close-icon" width="18" height="18">
+        <button type="button" class="modal__close" data-modal-close>
+          <svg class="modal__icon" width="18" height="18">
             <use href="./img/icons.svg#icon-close"></use>
           </svg>
         </button>
 
-        <div class="form-input">
-          <h2 class="data-title">Оставьте свои данные, мы вам перезвоним</h2>
-          <form class="data-form">
-            <label class="data-label"
+        <div class="data">
+          <h2 class="data__title">Оставьте свои данные, мы вам перезвоним</h2>
+          <form class="data__form">
+            <label class="data__label"
               >Имя
-              <input type="text" name="name" class="data-input" />
-              <svg class="data-icon" width="18" height="18">
+              <input type="text" name="name" class="data__input data__input--main" />
+              <svg class="data__icon" width="18" height="18">
                 <use href="./img/icons.svg#icon-person"></use>
               </svg>
             </label>
 
-            <label class="data-label"
+            <label class="data__label"
               >Телефон
-              <input type="tel" name="tel" class="data-input" />
-              <svg class="data-icon" width="18" height="18">
+              <input type="tel" name="tel" class="data__input data__input--main" />
+              <svg class="data__icon" width="18" height="18">
                 <use href="./img/icons.svg#icon-phone-black"></use>
               </svg>
             </label>
 
-            <label class="data-label"
+            <label class="data__label"
               >Почта
-              <input type="email" name="email" class="data-input" />
-              <svg class="data-icon" width="18" height="18">
+              <input type="email" name="email" class="data__input data__input--main" />
+              <svg class="data__icon" width="18" height="18">
                 <use href="./img/icons.svg#icon-email-black"></use>
               </svg>
             </label>
 
-            <label class="data-label"
+            <label class="data__label"
               >Комментарий
               <textarea
                 name="comment"
                 rows="6"
                 placeholder="Введите текст"
-                class="comment-input"
+                class="data__input data__input--comment"
               ></textarea>
             </label>
 
-            <div class="privaty">
-              <label class="check-text">
-                <input type="checkbox" name="check" class="check-input visually-hidden" />
-                <span class="check-icon">
-                  <svg class="checkdox-icon" width="16" height="15">
+            <div class="agreement">
+              <label class="agreement__text">
+                <input type="checkbox" name="check" class="agreement__input visually-hidden" />
+                <span class="agreement__icon">
+                  <svg class="" width="16" height="15">
                     <use href="./img/icons.svg#icon-check"></use>
                   </svg>
                 </span>
                 Соглашаюсь с рассылкой и принимаю
-                <a href="" class="check-link">Условия договора</a>
+                <a href="" class="agreement__link">Условия договора</a>
               </label>
             </div>
 
             <div class="submit-button">
-              <button type="submit" class="data-button">Отправить</button>
+              <button type="submit" class="data__button">Отправить</button>
             </div>
           </form>
         </div>

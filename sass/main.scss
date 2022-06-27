@@ -1,3 +1,13 @@
-body {
-  color: tomato;
-}
+@import './utils/variables';
+@import './base/base';
+@import './layout/header';
+@import './components/logo';
+@import './components/button';
+@import './layout/hero';
+@import './layout/benefits';
+@import './layout/about';
+@import './components/soc-list';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './components/subscription';
