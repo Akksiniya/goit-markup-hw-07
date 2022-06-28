@@ -50,6 +50,14 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  &__title {
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
+  }
 }
 
 .current {
@@ -67,12 +75,4 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
-
-.section__title {
-  font-size: 36px;
-  line-height: 1.7;
-  text-align: center;
-  letter-spacing: 0.03em;
-  padding-bottom: 50px;
 }

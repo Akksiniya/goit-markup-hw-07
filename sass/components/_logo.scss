@@ -4,27 +4,27 @@
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-}
 
-.logo__start {
-  color: $accent-color;
-}
+  &__start {
+    color: $accent-color;
+  }
 
-.logo__end--dark {
-  color: $text-logo-color;
-}
+  &__end--dark {
+    color: $text-logo-color;
+  }
 
-.logo--header {
-  margin-right: 95px;
-  margin-top: auto;
-  margin-bottom: auto;
-}
+  &__end--light {
+    color: $text-accent-color;
+  }
 
-.logo__end--light {
-  color: $text-accent-color;
-}
+  &--header {
+    margin-right: 95px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 
-.logo--footer {
-  display: inline-block;
-  margin-bottom: 20px;
+  &--footer {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
 }
